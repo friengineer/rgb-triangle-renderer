@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
   MyMainWindow window;
 
   // place widgets and draw on them 
-  PixelWidget w(70,70);
+  PixelWidget w(70, 70);
   window.setCentralWidget(&w);
   window.show();
 

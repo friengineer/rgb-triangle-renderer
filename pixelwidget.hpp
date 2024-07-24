@@ -20,7 +20,7 @@ public:
   (
    unsigned int n_horizontal, // the first integer determines the number of horizontal pixels
    unsigned int n_vertical    // the second integer determines the number of vertical pixels
-   );
+  );
 
   // sets a pixel at the specified RGBVal value; ignores non-existing pixels without warning
   void SetPixel
@@ -28,7 +28,7 @@ public:
    unsigned int  i_x, // horizontal pixel coordinate
    unsigned int  i_y, // vertical pixel coordinate
    const RGBVal& c    // RBGVal object for RGB values
-    );
+  );
 
   void DefinePixelValues();
 
